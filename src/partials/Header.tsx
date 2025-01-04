@@ -37,7 +37,7 @@ const Header = () => {
         {/* Logo */}
         <button
           onClick={() => navigate("/")}
-          className="flex items-center space-x-3 font-bold uppercase"
+          className="flex items-center space-x-3 font-bold"
         >
           <img
             src={getLogoByTheme(theme)}
@@ -45,7 +45,7 @@ const Header = () => {
             className="w-8 h-8 md:w-10 md:h-10 object-contain"
           />
           <h1 className="dark:text-yellow-400 text-lg md:text-2xl font-bold">
-            Nishule
+            KiDUKA
           </h1>
         </button>
 
